@@ -77,7 +77,7 @@ ul li{
   font-size: 15px;
   padding: 10px 30px;
   user-select: none;
-  width: 80%;
+  width: 90%;
   min-height: 50px;
   margin: 0 auto;
   border-radius: 5rem;
@@ -104,27 +104,6 @@ ul li span:hover{
 ul li i{
   pointer-events: none;
 }
-@media  screen (max-width:550px){
-  .container{
-    top: 90% ;
-    position: absolute;
-  }
-  .todoapp{
-      width: 90%;
-  }
-  .h1{
-      font-size: 15vw;
-  }
-  .ul li{
-      width: 90%;
-  }
-  .h1{
-      font-size: 15vw;
-  }
-  .ul li{
-      width: 90%;
-  }
-}
 .add-btn{
   width: 70px;
   height: 40px;
@@ -133,4 +112,452 @@ ul li i{
   color: rgb(12, 3, 30);
   /* background-color: plum; */
   box-shadow: 1px 0px rgb(90, 83, 83);
+}
+
+
+
+@media screen (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    letter-spacing: 5px;
+  }
+
+  .todoapp {
+    width: 90%; 
+  }
+
+  ul li {
+    font-size: 13px;
+    padding: 10px 20px;
+    gap: 10px; 
+  }
+
+  .add-btn {
+    width: 60px;
+    height: 35px;
+  }
+}
+@media(max-width:481px){
+  .container{
+    position: absolute;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 20px;
+  }
+  .todoapp{
+      width: 80%;
+  }
+  .h1{
+      font-size: 14px;
+  }
+  .ul li{
+      width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 90%;
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 13px;
+    padding: 10px 20px;
+    gap: 220px; 
+  }
+
+  .add-btn {
+    width: 60px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 460px) {
+  h1 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  ul li {
+    font-size: 13px;
+    padding: 10px 20px;
+    gap: 200px; 
+  }
+
+  .add-btn {
+    width: 60px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 22px;
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%; 
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px; 
+    padding: 10px 15px; 
+    gap: 200px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%; 
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px; 
+    padding: 10px 15px; 
+    gap: 180px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 20px; 
+    letter-spacing: 3px; 
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 100%; 
+    padding: 0.5rem; 
+  }
+
+  ul li {
+    font-size: 6px; 
+    min-height: 30px;
+  }.list-container span{
+    position: absolute;
+    margin-left: 90px;
+  }
+
+  .add-btn {
+    width: 40px; 
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .row {
+    margin: 10px 0; 
+    padding: 0;
+  }
+
+  input {
+    font-size: 12px; 
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 310px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%;
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px;
+    padding: 10px 15px; 
+    gap: 100px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+.list-container span{
+  position: absolute;
+  margin-left: 90px;
+}
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }
+}
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%; 
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px; 
+    padding: 10px 15px; 
+    gap: 110px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }.list-container span{
+    position: absolute;
+    margin-left: 90px;
+  }
+
+}
+@media screen and (max-width: 330px) {
+  h1 {
+    font-size: 22px;
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%;
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px; 
+    padding: 10px 15px;
+    gap: 100px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }.list-container span{
+    position: absolute;
+    margin-left: 90px;
+  }
+
+}
+@media screen and (max-width: 340px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%; 
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px;
+    padding: 10px 15px; 
+    gap: 120px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }.list-container span{
+    position: absolute;
+    margin-left: 90px;
+  }
+
+}
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%; 
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px;
+    padding: 10px 15px; 
+    gap: 120px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; /
+  }.list-container span{
+    position: absolute;
+    margin-left: 90px;
+  }
+
+}
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%; 
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px; 
+    padding: 10px 15px;
+    gap: 130px;
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }
+}
+@media screen and (max-width: 370px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%;
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px; 
+    padding: 10px 15px; 
+    gap: 130px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }
+}
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 22px; 
+    letter-spacing: 5px; 
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .todoapp {
+    width: 95%; 
+    padding: 1rem; 
+  }
+
+  ul li {
+    font-size: 12px; 
+    padding: 10px 15px; 
+    gap: 160px; 
+  }
+
+  .add-btn {
+    width: 50px; 
+    height: 30px;
+    font-size: 12px; 
+  }
+
+  .row {
+    margin: 20px 0; 
+    padding-left: 10px; 
+  }
 }

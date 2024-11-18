@@ -40,7 +40,7 @@ export default function TodoList() {
             <li key={index} className="checked">
               {t}
               <span>
-                  <GoTrash style={{ color: 'red', cursor: 'pointer' }}
+                  <GoTrash className='trash' style={{ color: 'red', cursor: 'pointer' }}
                   onClick={() => handleDeleteTask(index)} />
                   
               </span>
