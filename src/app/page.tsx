@@ -2,7 +2,8 @@
 "use client"
 
 import React, { useState } from 'react';
-import { GoTrash } from "react-icons/go";
+import { FaTrash } from 'react-icons/fa';
+
 
 export default function TodoList() {
   const [task, setTask] = useState(''); 
@@ -39,8 +40,8 @@ export default function TodoList() {
           {tasks.map((t, index) => (
             <li key={index} className="checked">
               {t}
-              <span>
-                  <GoTrash className='trash' style={{ color: 'red', cursor: 'pointer' }}
+              <span >
+                  <FaTrash  className='trash' style={{  cursor: 'pointer' }}
                   onClick={() => handleDeleteTask(index)} />
                   
               </span>

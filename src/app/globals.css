@@ -61,10 +61,10 @@ input{
   border-bottom: 1px solid white;
 }
 input::placeholder{
-  color: rgba(250, 245, 245, 0.55);
+  color: rgba(107, 101, 101, 0.55);
 }
 button:hover{
-  background-color: plum;
+  background-color: rgb(53, 51, 53);
 }
 ul{
   display: flex;
@@ -93,12 +93,12 @@ ul li:hover{
   background: rgba(225, 225, 225, .05);
 }
 ul li.checked{
-  color: rgb(12, 3, 30);
+  color: rgb(244, 243, 246);
   /* text-decoration: line-through; */
 }
 ul li span:hover{
   border-radius: 30px;
-  background: rgb(225, 149, 180);
+  background: rgb(66, 64, 65);
   color: white;
 }
 ul li i{
@@ -109,12 +109,17 @@ ul li i{
   height: 40px;
   border-radius: 30px;
   border-color: black;
-  color: rgb(12, 3, 30);
+  color: rgb(246, 242, 255);
   /* background-color: plum; */
   box-shadow: 1px 0px rgb(90, 83, 83);
 }
 
-
+.trash :hover{
+  background-color: red;
+  width: 60px;
+  height: 30px;
+  transition: 0.3s;
+}
 
 @media screen (max-width: 768px) {
   h1 {
@@ -125,6 +130,30 @@ ul li i{
   .todoapp {
     width: 90%; 
   }
+
+  ul li {
+    font-size: 13px;
+    padding: 10px 20px;
+    gap: 10px; 
+  }
+
+  .add-btn {
+    width: 60px;
+    height: 35px;
+  }
+}
+
+
+@media screen (max-width: 760px) {
+  h1 {
+    font-size: 28px;
+    letter-spacing: 5px;
+  }
+
+  .todoapp {
+    width: 100%; 
+  }
+ 
 
   ul li {
     font-size: 13px;
