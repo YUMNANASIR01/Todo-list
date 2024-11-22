@@ -619,3 +619,74 @@ ul li i{
     padding-left: 10px; 
   }
 }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .todoapp {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .row {
+    margin: 15px 0;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  ul li {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  .add-btn {
+    width: 60px;
+    height: 35px;
+  }
+
+  .trash {
+    width: 40px;
+    height: 15px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .todoapp {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .row {
+    padding-left: 10px;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  ul li {
+    font-size: 13px;
+    padding: 6px 15px;
+  }
+
+  .add-btn {
+    width: 55px;
+    height: 30px;
+  }
+
+  .trash {
+    width: 35px;
+    height: 12px;
+  }
+}
